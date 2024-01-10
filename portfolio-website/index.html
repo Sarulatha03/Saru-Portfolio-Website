@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Saru Portfolio Website</title>
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">SARULATHA</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="fas fa-home nav-link-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fas fa-user nav-link-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="fas fa-file-alt nav-link-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">
+                            <i class="fas fa-briefcase nav-link-icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certificate" class="nav-link">
+                            <i class="fas fa-briefcase nav-link-icon"></i> Certification
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope nav-link-icon"></i> Contactme
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+
+                <!-- Theme change button -->
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-qrcode"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://www.linkedin.com/in/sarulatha-s" target="_blank" class="home-social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <!-- <a href="https://dribbble.com/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-dribbble"></i>
+                        </a> -->
+                        <a href="https://github.com/Sarulatha03" target="_blank" class="home-social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="home-img">
+                        <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink"> 
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home-blob-img" x='12' y='18' xlink:href="img/perfil.jpg" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home-data">
+                        <h1 class="home-data-title">Hi, I'am Sarulatha</h1>
+                        <h3 class="home-data-subtitle">Computer Science Engineer</h3>
+                        <p class="home-data-description">Dedicated Full-Stack Developer seeking a challenging role to apply 
+                            expertise in front-end and back-end technologies.</p>
+                        <a href="#contact" class="button button-flex">
+                            Contact Me <i class="fab fa-telegram-plane button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button-flex">
+                        <span class="home-scroll-button-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home-scroll-button-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My introduction</span>
+
+            <div class="about-container container grid">
+                <div class="about-container-img">
+                    <img src="img/about.jpg" alt="About" class="about-container-imgAlt">
+                </div>
+
+                <div class="about-container-data">
+                    <p class="about-container-data-description">
+                        Seeking a dynamic role to apply programming skills and contribute to impactful projects,
+                        fostering professional growth within a collaborative and innovative development environment.</p>
+
+                    <div class="about-container-data-info">
+                        <div>
+                            <span class="about-container-data-info-title">05+</span>
+                            <span class="about-container-data-name">Virtual work <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about-container-data-info-title">20+</span>
+                            <span class="about-container-data-name">Completed <br> project</span>
+                        </div>
+                        <div>
+                            <span class="about-container-data-info-title">04+</span>
+                            <span class="about-container-data-name">Internship <br> experience</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a download="" href="pdf/Sarulatha-Cv.pdf" class="button button-flex">
+                            Download CV <i class="fas fa-download button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">My technical level</span>
+
+            <div class="skills-container container grid">
+                <div>
+                    <!-- SKILLS 1 -->
+                    <div class="skills-container-content skills-open">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-code skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Front-End Developer</h1>
+                                <span class="skills-subtitle"></span>
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">JavaScript</h3>
+                                    <span class="skills-number">60%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-js"></span>
+                                </div>
+                            </div>                           
+
+                        </div>
+
+                    </div>
+
+                    <!-- SKILLS 2 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-server skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Back-End Developer</h1>
+                                <span class="skills-subtitle"></span>
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Java</h3>
+                                    <span class="skills-number">75%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-java"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">C++</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-cpp"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">C</h3>
+                                    <span class="skills-number">75%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-c"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <!-- SKILLS 3 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-swatchbook skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Designer</h1>
+                                <span class="skills-subtitle"></span>
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Figma</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-figma"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Photoshop</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-ps"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- SKILLS 4 -->
+                     <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-server skills-icon"></i>                           
+                            <div>
+                                <h1 class="skills-title">DataBase</h1>
+                                <span class="skills-subtitle"></span>
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">SQL</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-sql"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MongoDB</h3>
+                                    <span class="skills-number">45%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-mongo"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- QUALIFICATION -->
+        <section class="qualification section">
+            <h2 class="section-title">Qualification</h2>
+            <span class="section-subtitle">My personel journey</span>
+
+            <div class="qualification-container container">
+                <div class="qualification-tabs">
+                    <div class="qualification-tabs-button button-flex qualification-active" data-target="#education">
+                        <i class="fas fa-graduation-cap qualification-icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification-tabs-button button-flex" data-target="#work">
+                        <i class="fas fa-briefcase qualification-icon"></i>
+                        Work
+                    </div>
+                </div>
+                <div class="qualification-sections">
+                    <!-- QUALIFICATION CONTENT 1 -->
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Computer Science Enginnering</h3>
+                                <span class="qualification-subtitle">Anna University<br> Kingston Engineering College<br>87%</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2020 - 2024
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 2 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">HSC</h3>
+                                <span class="qualification-subtitle">Vidya Vikas matric hr sec school<br>73%</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2019 - 2020
+                                </div>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 3 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">SSLC</h3>
+                                <span class="qualification-subtitle">Govt Girls hr sec school<br>88%</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2017 - 2018
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- QUALIFICATION CONTENT 2 -->
+                    <div class="qualification-content" data-content id="work">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Full Stack  Developer Intern</h3>
+                                <span class="qualification-subtitle">Bharat Intern</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    11/2023 - 12/2023
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 2 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Java Developer Intern</h3>
+                                <span class="qualification-subtitle">Let's Grow More</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    10/2023 - 11/2023
+                                </div>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 3 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Python Developer Intern</h3>
+                                <span class="qualification-subtitle">Internpe</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    09/2023 - 10/2023
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 4 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title">Java Developer Intern</h3>
+                                <span class="qualification-subtitle">I-Scripts Technologies</span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    01/2023 - 02/2023
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section" id="services">
+            <h2 class="section-title">Project</h2>
+            <span class="section-subtitle">Personal project</span>
+
+            <div class="services-container container grid">
+                <!-- SERVICES 1 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-border-all services-icon"></i>
+                        <h3 class="services-title">Java <br> Projects</h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Java <br> Project</h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>The Currency Convertor.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Tic Tac Toe Game.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Scientific Calculator.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Simple Text Editor.</p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES 2 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-arrows-alt-h services-icon"></i>
+                        <h3 class="services-title">Python<br> Projects</h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Python<br> Projects</h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>The AI Virtual Mouse.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p> Color Detection.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p> Snake Game.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>TIC TAC TOE Game.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p> Digital Clock.</p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES 3 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-pencil-alt services-icon"></i>
+                        <h3 class="services-title">Node JS<br> Projects</h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Node JS<br> Projects</h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>NEWS Website using API.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Weather Info App using API.</p>
+                                </li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES 4 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-border-all services-icon"></i>
+                        <h3 class="services-title">Full Stack<br> Projects</h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">full Stack<br> Projects</h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Personal Portfolio Website.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Blogging Website.</p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p>Registration Form Website.</p>
+                                </li>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- PORTFOLIO -->
+         <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Certification</h2>
+            <span class="section-subtitle">Most recent work</span>
+
+            <div class="portfolio-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTFOLIO 1 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio1.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Achivements</h3>
+                            <p class="portfolio-description"><i class="far fa-check-circle services-modal-icon"></i>Participated in the Internal Smart India Hackathon in
+                                2022.<br><i class="far fa-check-circle services-modal-icon"></i>Participated in the Project Expo to develop projects
+                                that focus on color detection in 2023.<br><i class="far fa-check-circle services-modal-icon"></i>Participated in the Project Expo to showcase
+                                development projects using the UI/UX Model in 2022.
+                                
+                            </p>
+                           
+                               
+            
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio2.jpg" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Boot Camps</h3>
+                            <p class="portfolio-description"><i class="far fa-check-circle services-modal-icon"></i>
+                                I took a 5-day boot camp on Python and Machine Learning Essentials.<br>
+                                <i class="far fa-check-circle services-modal-icon"></i>
+                                I took a 6-day boot camp to learn the fundamentals of C++ programming.<br>
+                                <i class="far fa-check-circle services-modal-icon"></i>
+                                I took a 5-day boot camp on HTML and CSS Essentials.<br>
+                                <i class="far fa-check-circle services-modal-icon"></i>
+                                I took a 5-day boot camp on JavaScript zero to hero program.
+                                </p>
+                           
+                               
+                            </a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 3 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio3.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">COURSES</h3>
+                            <p class="portfolio-description"> <i class="far fa-check-circle services-modal-icon"></i> 
+                                Object-Oriented Data Structures in C++ was certified by Coursera.
+                                <br>
+                                <i class="far fa-check-circle services-modal-icon"></i> 
+                                IBM certified Python for Data Science.<br>
+                                <i class="far fa-check-circle services-modal-icon"></i>
+                                Infosys certified for full stack development.<br>
+                                <i class="far fa-check-circle services-modal-icon"></i>
+                                Certification in Cisco Network Engineering.<br>
+                                <i class="far fa-check-circle services-modal-icon"></i>
+                                IBM Certified in SQL and Relational Databases.</p>
+                           
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 4 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio4.jpeg" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Certification</h3>
+                            <p class="portfolio-description"> 
+                                <i class="far fa-check-circle services-modal-icon"></i> 
+                                Advanced Google Analytics certification -Google
+                                <br>
+                                <i class="far fa-check-circle services-modal-icon"></i> 
+                                Google Analytics for Power Users -Google<br>
+                                <i class="far fa-check-circle services-modal-icon"></i> 
+                                Agile Methodology Virtual Experience Program -Cognizant<br>
+                                <i class="far fa-check-circle services-modal-icon"></i> 
+                                ESG Virtual Experience Program -TCS<br>
+                                <i class="far fa-check-circle services-modal-icon"></i> 
+                                Developer and Technology Job Simulation -Accenture<br>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrow -->
+                <div class="swiper-button-next">
+                    <i class="fas fa-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+       
+
+        <!-- CONTACT ME -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <span class="section-subtitle">Get in touch</span>
+
+            <div class="contact-container container grid">
+                <div class="contact-items">
+                    <div class="contact-information">
+                        <i class="fas fa-phone contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Call Me</h3>
+                            <span class="contact-subtitle">6380571554</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class="far fa-envelope contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-subtitle">sarulatha17803@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+
+                        <div>
+                            <h3 class="contact-title">Location</h3>
+                            <span class="contact-subtitle">Vellore</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Name</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Email</label>
+                            <input type="email" class="contact-input">
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Project</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Message</label>
+                            <textarea style="resize: none;" rows="5" class="contact-input"></textarea>
+                        </div>
+                    </div>
+                </form>
+                <div class="contact-button">
+                    <a href="#" class="button button-flex">
+                        Send Message <i class="fab fa-telegram-plane button-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <div class="footer-texts">
+                    <h1 class="footer-title">Sarulatha</h1>
+                    <span class="footer-subtitle">Computer Science Engineer</span>
+                </div>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#services" class="footer-link"></a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer-link">Contact Me</a>
+                    </li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/sarulatha-s" target="_blank">
+                         <i class="fab fa-linkedin footer-social"></i>
+                    </a>
+                    <a href="https://github.com/Sarulatha03" target="_blank">
+                        <i class="fab fa-github footer-social"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram footer-social"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">Thank You!</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/027d3564f6.js" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
